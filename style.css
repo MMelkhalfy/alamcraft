@@ -92,6 +92,12 @@ a {
   color: #111;
 }
 
+.server-links {
+  list-style: none;  
+  padding: 0;         
+  margin: 0;
+}
+
 .dark-mode .rules p {
   color: #ffffff;
 }
@@ -121,3 +127,4 @@ a {
 .dark-mode p[style] {
   color: #aaa !important;
 }
+
