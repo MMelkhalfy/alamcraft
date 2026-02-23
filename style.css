@@ -93,9 +93,12 @@ a {
 }
 
 .server-links {
-  list-style: none;  
-  padding: 0;         
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .dark-mode .rules p {
@@ -127,4 +130,5 @@ a {
 .dark-mode p[style] {
   color: #aaa !important;
 }
+
 
